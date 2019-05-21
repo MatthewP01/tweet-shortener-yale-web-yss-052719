@@ -15,7 +15,7 @@ end
 
 def word_substituter(tweet)
   tweet_string = tweet.split(" ")
-  tweet.map do |short|
+  tweet_string.map do |short|
     if
 
 end
