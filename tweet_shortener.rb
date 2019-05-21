@@ -31,3 +31,7 @@ def bulk_tweet_shortener(tweets)
     puts "#{tweet}"
   end
 end
+
+def selective_tweet_shortener
+  
+end
