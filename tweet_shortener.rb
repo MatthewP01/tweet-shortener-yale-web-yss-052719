@@ -33,8 +33,8 @@ def bulk_tweet_shortener(tweets)
 end
 
 def selective_tweet_shortener(tweet_small)
-  tweet_ = tweet_small.split(" ")
-  tweet_.map do |short|
+  tweet_ = 
+  tweet_small.split(" ").map do |short|
     if short.size > 140
       return word_substituter(short)
     elsif short.size <= 140
