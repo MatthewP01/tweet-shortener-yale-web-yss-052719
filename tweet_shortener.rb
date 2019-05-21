@@ -30,5 +30,4 @@ def bulk_tweet_shortener(tweets)
     tweet =  word_substituter(sub)
     puts "#{tweet}"
   end
-
 end
