@@ -21,5 +21,5 @@ def word_substituter(tweet)
       shorten = compare_words[shorten]
     end
   end
-
+  tweet_string.join(" ")
 end
