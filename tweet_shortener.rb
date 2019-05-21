@@ -47,3 +47,7 @@ def selective_tweet_shortener(tweet_small)
     tweet_small
   end
 end
+
+def shortened_tweet_truncator
+  
+end
