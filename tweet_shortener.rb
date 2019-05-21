@@ -22,7 +22,7 @@ def word_substituter(tweet)
       shorten
     end
   end
-  tweet_string.join(" ")
+  tweet.join(" ")
 end
 
   # tweet.split(" ").map do |word|
