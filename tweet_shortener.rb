@@ -37,7 +37,7 @@ def selective_tweet_shortener(tweet_small)
   tweet_.map do |short|
     if short.size > 140
       word_substituter(short)
-    else
+    elsif short.size <= 140
       return short
     end
   end.join(" ")
