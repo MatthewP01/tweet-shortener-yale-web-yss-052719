@@ -33,6 +33,7 @@ def bulk_tweet_shortener(tweets)
 end
 
 def selective_tweet_shortener(tweet_small)
+  tweet_ = tweet_small.split(" ")
   if tweet_small.size <= 140
     word_substituter(sub)
   else
