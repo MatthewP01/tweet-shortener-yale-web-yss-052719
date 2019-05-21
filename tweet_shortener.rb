@@ -14,6 +14,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  tweet.map do |word|
+  tweet.map do |short|
+    if short
 
 end
