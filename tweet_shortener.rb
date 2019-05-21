@@ -14,17 +14,17 @@ def dictionary
 end
 
 def word_substituter(tweet)
-#   tweet_string = tweet.split(" ")
-#   compare_words = dictionary.keys
-#   tweet_string.map do |shorten|
-#     if compare_words.include?(shorten)
-#       shorten = compare_words[shorten]
-#     else
-#       shorten
-#     end
-#   end
-#   tweet_string.join(" ")
-# end
+  tweet_string = tweet.split(" ")
+  compare_words = dictionary.keys
+  tweet_string.map do |shorten|
+    if compare_words.include?(shorten)
+      shorten = compare_words[shorten]
+    else
+      shorten
+    end
+  end
+  tweet_string.join(" ")
+end
   tweet.split(" ").map do |word|
        if dictionary.keys.include?(word.downcase)
          word = dictionary[word.downcase]
