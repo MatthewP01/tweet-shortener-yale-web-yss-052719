@@ -41,4 +41,4 @@ def selective_tweet_shortener(tweet_small)
 #     end
 #   end.join(" ")
 # end
-  if 
+  if tweet_small.size > 140
