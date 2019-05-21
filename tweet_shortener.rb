@@ -17,7 +17,7 @@ def word_substituter(tweet)
   compare_words = dictionary.keys
   tweet.split(" ").map do |shorten|
     if compare_words.include?(shorten.downcase)
-      shorten = dictionary[shorten.downcase]
+      shorten = dictionary[shorten]
     else
       shorten
     end
