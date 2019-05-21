@@ -20,5 +20,6 @@ def word_substituter(tweet)
     if compare_words.include?(shorten)
       shorten = compare_words[shorten]
     end
+  end
 
 end
