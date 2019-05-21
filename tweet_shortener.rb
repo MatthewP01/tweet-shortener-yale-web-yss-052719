@@ -37,6 +37,6 @@ def selective_tweet_shortener(tweet_small)
   if tweet_.size <= 140
     word_substituter(sub)
   else
-    return tweet_small
+    return tweet_
   end.join(" ")
 end
