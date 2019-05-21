@@ -19,5 +19,6 @@ def word_substituter(tweet)
   tweet_string.map do |shorten|
     if compare_words.include?(shorten)
       shorten = compare_words[shorten]
+    end
 
 end
